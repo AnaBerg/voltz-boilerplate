@@ -1,4 +1,3 @@
-import { DocumentInitialProps } from 'next/dist/shared/lib/utils';
 import Document, {
   DocumentContext,
   Html,
