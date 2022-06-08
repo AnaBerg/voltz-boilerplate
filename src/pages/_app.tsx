@@ -7,9 +7,10 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
-        <title>Next Boilerplate</title>
-        <link rel="shortcut icon" href="/img/atom-icon.svg" />
-        <link rel="apple-touch-icon" href="/img/atom-icon.svg" />
+        <title>Voltz Boilerplate</title>
+        <link rel="shortcut icon" href="/images/voltz-icon.svg" />
+        <link rel="apple-touch-icon" href="/images/voltz-icon.svg" />
+        <link rel="stylesheet" href="fonts.css" />
       </Head>
       <GlobalStyle />
       <Component {...pageProps} />
