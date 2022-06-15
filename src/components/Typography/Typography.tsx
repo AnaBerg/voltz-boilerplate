@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import styled from 'styled-components';
 
-import { TypographProps } from './typography.type';
+import { TypographProps } from './Typography.type';
 import {
   getFamilyFont,
   getFontSize,

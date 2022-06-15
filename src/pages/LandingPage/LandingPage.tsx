@@ -1,4 +1,4 @@
-import { Typography } from '../../components';
+import { Button, Typography } from '../../components';
 
 import { Icon, Logo, Wrapper, ContentWrapper } from './LandingPage.style';
 
@@ -21,6 +21,7 @@ const LandingPage = () => {
         <Typography variant="body-bold" color="highlight">
           yarn storybook
         </Typography>
+        <Button onClick={() => console.log('click')}>AAA</Button>
       </ContentWrapper>
     </Wrapper>
   );

@@ -1,8 +1,12 @@
 export const colors = {
   // main
   primary: "#1E1E21",
+
   secondary: "#EDEDED",
+
   highlight: "#1A73E8",
+  highlightLight: '#C3D9F3',
+  highlightDark: '#405773',
 
   // shades of grey
   white: "#FFFFFF",
